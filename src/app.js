@@ -17,6 +17,10 @@ app.post("/user", (req, res)=>{
     res.send("Data successfully saved to DB.");
 });
 
+app.delete("/user", (req, res)=>{
+    res.send("User Deleted");
+});
+
 
 
 app.listen("3000", () => {
